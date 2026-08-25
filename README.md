@@ -32,8 +32,7 @@ The scaled output voltage is compared with the reference voltage. The resulting 
 **Reference Voltage → Error Amplifier → PI Controller → PWM Generation → Gate Driver → Buck Converter → Output Feedback**
 
 ## Circuit
-
-The circuit diagram provided for the project is available in the [`circuit`](./circuit/) folder.
+![Buck Converter Circuit Diagram](./circuit/circuit-diagram.jpg)
 
 ## Hardware Implementation
 
@@ -41,7 +40,7 @@ The power stage and control circuitry were assembled and tested on a breadboard 
 
 The hardware prototype includes the switching device, freewheeling diode, inductor, output capacitor, feedback network and analog control circuitry.
 
-Hardware photographs are available in the [`hardware`](./hardware/) folder.
+![Hardware Prototype](./hardware/prototype.jpg)
 
 ## Design Calculations
 
@@ -50,12 +49,12 @@ The main design calculations, including duty ratio, load resistance, inductor cu
 [Design Calculations](./calculations/design-calculations.md)
 
 ## Experimental Testing
+### Test Measurements
+![Positive Test Measurement](./results/positive-output.jpg)
 
+![Negative Test Measurement](./results/negative-output.jpg)
 The prototype was experimentally tested using a digital multimeter and laboratory hardware setup.
 
-The measurement photographs are available in the [`results`](./results/) folder.
-
-The recorded readings in the photographs are presented as **observed test measurements** and are not assumed to represent the final regulated 12 V output without confirming the exact measurement node.
 
 ## Key Components / Concepts
 
